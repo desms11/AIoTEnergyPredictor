@@ -39,6 +39,16 @@ python -m src.evaluation
 python -m src.spark_pipeline
 ```
 
+Demo
+----
+Use this short flow when presenting the project live:
+
+1. Show the problem statement and pipeline overview in the README.
+2. Run the aggregation step to highlight hourly, daily, and occupancy patterns.
+3. Open `results/predictions_vs_actual.png` to discuss model quality.
+4. Point to the metrics in `results/model_metrics.txt` and explain MAE, RMSE, and R².
+5. Close with the business angle: forecasting energy demand for smarter operations and cost control.
+
 Files of interest
 -----------------
 - [src/data_simulator.py](src/data_simulator.py#L1) — generates synthetic IoT data

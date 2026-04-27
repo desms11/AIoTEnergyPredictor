@@ -1,0 +1,15 @@
+data/
+models/
+results/
+__pycache__/
+*.pyc
+.DS_Store
+venv/
+.env
+*.pkl
+*.db
+.ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
